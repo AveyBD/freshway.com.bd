@@ -35,27 +35,27 @@ function Nav() {
 
                   <a
                     href="/"
-                    className=" hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Buy/Sell
                   </a>
 
                   <a
                     href="/"
-                    className=" hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Careers
                   </a>
 
                   <a
                     href="/"
-                    className=" hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     People
                   </a>
                   <a
                     href="/"
-                    className=" hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Blog
                   </a>
@@ -119,39 +119,39 @@ function Nav() {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="md:hidden" id="mobile-menu">
+            <div className="md:hidden"id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="/"
-                  className="  text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Dashboard
                 </a>
 
                 <a
                   href="/"
-                  className=" hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Team
                 </a>
 
                 <a
                   href="/"
-                  className=" hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Projects
                 </a>
 
                 <a
                   href="/"
-                  className=" hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Calendar
                 </a>
 
                 <a
                   href="/"
-                  className=" hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Reports
                 </a>
