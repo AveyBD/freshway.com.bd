@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import logo from "../../../Assets/Images/FreshWay-Retina.png";
+import { Link } from "react-router-dom";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,46 +20,46 @@ function Nav() {
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Home
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/"
+                  <Link
+                    to="/about"
                     className="hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About Us
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/"
+                  <Link
+                    to="/buysell"
                     className="hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Buy/Sell
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/"
+                  <Link
+                    to="/careers"
                     className="hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Careers
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/"
+                  <Link
+                    to="/people"
                     className="hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     People
-                  </a>
-                  <a
-                    href="/"
+                  </Link>
+                  <Link
+                    to="/"
                     className="hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Blog
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -121,40 +122,46 @@ function Nav() {
           {(ref) => (
             <div className="md:hidden"id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className="hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Dashboard
-                </a>
+                  Home
+                </Link>
 
-                <a
-                  href="/"
+                <Link
+                  to="/about"
                   className="hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Team
-                </a>
+                  About Us
+                </Link>
 
-                <a
-                  href="/"
+                <Link
+                  to="/buysell"
                   className="hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Projects
-                </a>
+                  Buy/Sell
+                </Link>
 
-                <a
-                  href="/"
+                <Link
+                  to="/careers"
                   className="hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Calendar
-                </a>
+                  Careers
+                </Link>
 
-                <a
-                  href="/"
+                <Link
+                  to="/people"
                   className="hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Reports
-                </a>
+                  People
+                </Link>
+                <Link
+                  to="/blog"
+                  className="hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Blog
+                </Link>
               </div>
             </div>
           )}
