@@ -1,4 +1,5 @@
 import React from "react";
+import heroImg from '../../Assets/Images/hero.png'
 
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
           </div>
           <img
             className="w-full mt-2 md:mt-0 object-fill md:w-2/3 md:-ml-4 lg:-ml-4 xl:ml-0"
-            src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Graphic.png"
+            src={heroImg}
             alt="sample page"
             role="img"
           />
