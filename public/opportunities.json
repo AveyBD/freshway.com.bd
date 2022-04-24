@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Benefits For Farmers",
+        "id": 1,
+        "img": "https://ninjacart.in/images/creatingopportunities_img1.png",
+        "Benefits": [
+            "20% more revenue",
+            "One-Stop-Sale",
+            "Payment in 24 Hours",
+            "Transparent Weighing"
+        ]
+    },
+    {
+        "name": "Convenience for retailers",
+        "id": 2,
+        "img": "https://ninjacart.in/images/creatingopportunities_img2.png",
+        "Benefits": [
+            "Competitive pricing",
+            "Doorstep delivery",
+            "High quality graded produce",
+            "Convenient & time saving"
+        ]
+    },
+    {
+        "name": "Convenience for retailers",
+        "id": 3,
+        "img": "https://ninjacart.in/images/creatingopportunities_img3.png",
+        "Benefits": [
+            "Hygienically handled produce",
+            "Improved food safety",
+            "100% traceable",
+            "Better quality"
+        ]
+    }
+]
