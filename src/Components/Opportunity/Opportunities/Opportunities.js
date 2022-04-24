@@ -11,9 +11,9 @@ const Opportunities = () => {
   }, []);
 
   return (
-    <div>
+    <div className="grid grid-cols-1 gap-8 md:grid-cols-3 w-10/12 mx-auto">
       {oppo.map((op) => (
-        <Opportunity key={op.id} op={oppo}></Opportunity>
+        <Opportunity key={op.id} op={op}></Opportunity>
       ))}
     </div>
   );
