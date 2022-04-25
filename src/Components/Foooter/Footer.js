@@ -115,7 +115,7 @@ const Footer = () => {
         </div>
         <div className="mx-6 py-10 text-center md:text-left">
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="col-span-2">
+            <div className="col-span-2 md:col-span-1">
               <h6
                 className="
             uppercase
@@ -200,7 +200,7 @@ const Footer = () => {
                 </a>
               </p>
             </div>
-            <div className="col-span-2">
+            <div className="col-span-2 md:col-span-1">
               <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
                 Contact
               </h6>
