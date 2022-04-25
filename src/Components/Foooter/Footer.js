@@ -114,8 +114,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="mx-6 py-10 text-center md:text-left">
-          <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="col-span-2">
               <h6
                 className="
             uppercase
@@ -125,6 +125,7 @@ const Footer = () => {
             items-center
             justify-center
             md:justify-start
+            
           "
               >
                 <svg
@@ -151,7 +152,7 @@ const Footer = () => {
             </div>
             <div className="">
               <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-                Products
+                Info
               </h6>
               <p className="mb-4">
                 <a href="#!" className="text-gray-600">
@@ -199,7 +200,7 @@ const Footer = () => {
                 </a>
               </p>
             </div>
-            <div className="">
+            <div className="col-span-2">
               <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
                 Contact
               </h6>
