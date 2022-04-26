@@ -12,7 +12,7 @@ const Hero = () => {
             </h1>
             <div className="f-f-r text-base lg:text-base pb-20 sm:pb-0 pt-10 xl:pt-6">
               <h2>
-              Driven by cutting edge technology, we source fresh produce from farmers and sell to businesses, across Bangladesh.
+              Driven by cutting edge technology, we source fresh produce from partner farmers and sell to businesses, across Bangladesh.
               </h2>
             </div>
             <div>
