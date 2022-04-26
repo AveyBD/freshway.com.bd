@@ -283,7 +283,7 @@ const Footer = () => {
           <span>© 2022 Copyright:</span>
           <a
             className="text-gray-600 font-semibold"
-            href="https://tailwind-elements.com/"
+            href="https://freshway.com.bd/"
           >
             Redgreen Technology Ltd.
           </a>
