@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from '../../Assets/Images/hero.png'
+import heroImg from "../../Assets/Images/hero.png";
 
 const Hero = () => {
   return (
@@ -12,7 +12,8 @@ const Hero = () => {
             </h1>
             <div className="f-f-r text-base lg:text-base pb-20 sm:pb-0 pt-10 xl:pt-6">
               <h2>
-              Driven by cutting edge technology, we source fresh produce from partner farmers and sell to businesses, across Bangladesh.
+                Driven by cutting edge technology, we source fresh produce from
+                partner farmers and sell to businesses, across Bangladesh.
               </h2>
             </div>
             <div>
@@ -28,9 +29,8 @@ const Hero = () => {
             role="img"
           />
           <button className="md:hidden hover:opacity-90 text-base w-full xl:text-base xl:w-6/12 mt-4 xl:mt-8 f-f-r py-4  bg-green-700 text-white font-bold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 rounded-lg">
-          Learn More
+            Learn More
           </button>
-
         </div>
       </div>
     </div>
