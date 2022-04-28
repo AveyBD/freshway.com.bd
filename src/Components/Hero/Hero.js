@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div>
       <div className="relative w-full h-full pb-10">
-        <div className="relative px-4 xl:px-0 container mx-auto md:flex items-center gap-8">
+        <div className="relative px-4 xl:px-0 container mx-auto md:mx-12 md:flex items-center gap-8">
           <div className="text-color w-full md:w-1/3 pt-16 lg:pt-32 xl:pt-12">
             <h1 className="text-4xl md:text-4xl lg:text-6xl w-11/12 lg:w-11/12 xl:w-full xl:text-6xl text-gray-900 font-extrabold f-f-l">
               Revolutionizing the Fresh Produce Supply Chain
