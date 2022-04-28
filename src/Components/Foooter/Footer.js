@@ -285,8 +285,7 @@ const Footer = () => {
             className="text-gray-600 font-semibold"
             href="https://freshway.com.bd/"
           >
-            FreshWay Agri-Tech Park ltd
-.
+            FreshWay Agri-Tech Park ltd .
           </a>
         </div>
       </footer>
