@@ -9,15 +9,21 @@ const Opportunity = ({ op }) => {
       <h2 className="font-bold text-2xl mt-1 ">{op.name}</h2>
       <ul>
         <li className="flex gap-1 items-center ">
-            <FcInfo></FcInfo>
+          <FcInfo></FcInfo>
           {op.Benefits[0]}
         </li>
         <li className="flex gap-1 items-center ">
-            <FcInfo></FcInfo>{op.Benefits[1]}</li>
-            <li className="flex gap-1 items-center ">
-            <FcInfo></FcInfo>{op.Benefits[2]}</li>
-            <li className="flex gap-1 items-center ">
-            <FcInfo></FcInfo>{op.Benefits[3]}</li>
+          <FcInfo></FcInfo>
+          {op.Benefits[1]}
+        </li>
+        <li className="flex gap-1 items-center ">
+          <FcInfo></FcInfo>
+          {op.Benefits[2]}
+        </li>
+        <li className="flex gap-1 items-center ">
+          <FcInfo></FcInfo>
+          {op.Benefits[3]}
+        </li>
       </ul>
     </div>
   );
