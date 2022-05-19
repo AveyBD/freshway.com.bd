@@ -3,6 +3,7 @@ import Footer from "../Foooter/Footer";
 import Hero from "../Hero/Hero";
 import Partner from "./Partner";
 import Team from "./Team";
+import Users from "./Users";
 
 const About = () => {
   return (
@@ -86,6 +87,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Users></Users>
       <Team></Team>
       <Partner></Partner>
       <Footer></Footer>
